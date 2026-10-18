@@ -159,7 +159,7 @@ export function Overlay({
   const reference = Math.max(now, loadedAt);
 
   return (
-    <main data-overlay className="w-full max-w-[480px] p-2">
+    <main data-overlay className="w-full max-w-120 p-2">
       <Card
         className={cn(
           "gap-0 rounded-md bg-card/95 py-0 shadow-none ring-border",
